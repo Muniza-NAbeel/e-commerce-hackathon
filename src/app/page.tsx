@@ -11,8 +11,8 @@ import {
 
 export default function Home() {
   return (
-    <div className='bg-[#f6f7f9] min-h-screen p-4 sm:p-6 lg:p-20 flex flex-col gap-10 font-'>
-      <section className='first w-full flex flex-wrap sm:flex-nowrap gap-4 sm:gap-8 justify-center'>
+    <div className='bg-[#f6f7f9]  min-h-screen p-4 sm:p-6 lg:p-20 flex flex-col gap-10 font-'>
+      {/* <section className='first w-full flex flex-wrap sm:flex-nowrap gap-4 sm:gap-8 justify-center'>
         <Image
           src={"/Ads 1.png"}
           alt=''
@@ -27,7 +27,65 @@ export default function Home() {
           height={360}
           className='max-w-full'
         />
-      </section>
+      </section> */}
+      <div className="first w-full flex flex-wrap sm:flex-nowrap gap-4 sm:gap-8 justify-center">
+          {/* Left Card */}
+          <div
+            className="bg-blue-100 p-6 rounded-lg shadow-md w-[640px]"
+            style={{
+              backgroundImage: 'url("/bl.jpg")',
+              backgroundSize: 'cover',
+              backgroundPosition: 'center',
+            }}
+          >
+             <h2 className="text-white text-2xl mb-4 font-[600] text-[32px] leading-[48px] tracking-[-3%]">
+          The Best Platform <br />
+          for Car Rental
+        </h2>
+        <p className="font-[500] text-white text-[16px] leading-[24px] tracking-[-2%]">
+          Ease of doing a car rental safely and <br /> reliably, of course at a
+          low price.
+        </p>
+        <button className="mt-4 bg-[#3563E9] text-white w-[140px] h-[44px] rounded-[4px] px-[20px] gap-[8px] hover:bg-[#54A6FF] active:bg-[#3563e9] active:scale-95 transition-all shadow-md">
+          Rental Car
+        </button>
+            <Image
+              src="/hero1.png"
+              alt="Car"
+              height={600}
+              width={600}
+              className="mt-4 w-full max-w-[440px] mx-auto object-cover"
+            />
+          </div>
+
+          {/* Right Card */}
+          <div
+            className="bg-blue-200 p-6 rounded-lg shadow-md w-[640px]"
+            style={{
+              backgroundImage: 'url("/br.jpg")',
+              backgroundSize: 'cover',
+              backgroundPosition: 'center',
+            }}
+          >
+            <h2 className="font-[600] text-[#FFFFFF] text-[32px] leading-[48px] tracking-[-3%] mb-4">
+          Easy way to rent a <br /> car at a low price
+        </h2>
+        <p className="font-[500] text-[16px] text-[#FFFFFF] leading-[24px] tracking-[-2%]">
+          Providing cheap car rental services <br /> and safe and comfortable
+          facilities.
+        </p>
+        <button className="mt-4 bg-[#54A6FF] text-white w-[140px] h-[44px] rounded-[4px] px-[20px] gap-[8px] hover:bg-[#3563e9] active:bg-[#54A6FF] active:scale-95 transition-all shadow-md">
+          Rental Car
+        </button>
+            <Image
+              src="/hero2.png"
+              alt="Car"
+              height={500}
+              width={500}
+              className="mt-4 w-full max-w-[340px] mx-auto object-cover"
+            />
+          </div>
+        </div>
 
       <section className='w-full flex flex-wrap sm:flex-nowrap items-center justify-center sm:justify-between gap-4 sm:gap-8'>
         <Image
