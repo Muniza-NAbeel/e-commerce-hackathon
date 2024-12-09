@@ -23,7 +23,7 @@ export default function Page() {
       <div className="first hidden sm:flex w-[20%]">
         <Image src={"/Nav Bar Side.png"} alt="" width={360} height={1600} />
       </div>
-      <div className="sec w-full sm:w-[80%] bg-[#f6f7f9] p-4 sm:p-6  flex flex-col gap-10 font-[family-name:var(--font-geist-sans)]">
+      <div className="sec w-full sm:w-[80%] bg-[#f6f7f9] p-4 sm:p-6  flex flex-col gap-10 font-plus-jakarta-sans">
         <section className="w-full flex flex-col sm:flex-row items-center justify-center sm:justify-between">
           <Image
             src={"/Pick - Up.png"}

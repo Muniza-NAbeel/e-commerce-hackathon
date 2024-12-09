@@ -13,7 +13,7 @@ import Link from "next/link";
 
 export default function Page() {
   return (
-    <div className="payment w-full bg-[#f6f7f9] p-4 sm:p-6  flex flex-wrap gap-6 justify-center font-[family-name:var(--font-geist-sans)]">
+    <div className="payment w-full bg-[#f6f7f9] p-4 sm:p-6  flex flex-wrap gap-6 justify-center font-plus-jakarta-sans">
       <div className="cards w-full md:w-[70%] grid grid-cols-1 gap-6 order-2 lg:order-1">
         <Card className="w-full lg:w-[852px] h-auto lg:h-[336px] flex flex-col justify-around">
           <CardHeader>

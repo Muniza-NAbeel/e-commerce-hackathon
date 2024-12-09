@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Footer() {
   return (
-    <div className="relative flex flex-col items-center justify-center gap-6 px-5 w-full bg-white py-6">
+    <div className="relative flex flex-col items-center justify-center gap-6 px-5 w-full bg-white py-6 font-plus-jakarta-sans">
       <div className="first w-full flex flex-wrap items-start justify-between gap-6">
         {/* Intro Section */}
         <div className="intro flex flex-col gap-2 w-full lg:w-auto">
