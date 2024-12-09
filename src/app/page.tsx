@@ -84,7 +84,7 @@ export default function Home() {
               <p>
                 $99.00/<span className='text-gray-500'>day</span>
               </p>
-              <button className='bg-[#3563e9] p-2 text-white rounded-md'>
+              <button className='bg-[#3563e9] p-2 text-white rounded-md hover:bg-[#54A6FF] active:bg-[#3563e9] active:scale-95 transition-all shadow-md'>
                 Rent Now
               </button>
             </CardFooter>
@@ -112,7 +112,7 @@ export default function Home() {
                 $99.00/<span className='text-gray-500'>day</span>
               </p>
               <Link href={"/payment"}>
-                <button className='bg-[#3563e9] p-2 text-white rounded-md'>
+                <button className='bg-[#3563e9] p-2 text-white rounded-md hover:bg-[#54A6FF] active:bg-[#3563e9] active:scale-95 transition-all shadow-md'>
                   Rent Now
                 </button>
               </Link>
@@ -140,7 +140,7 @@ export default function Home() {
               <p>
                 $99.00/<span className='text-gray-500'>day</span>
               </p>
-              <button className='bg-[#3563e9] p-2 text-white rounded-md'>
+              <button className='bg-[#3563e9] p-2 text-white rounded-md hover:bg-[#54A6FF] active:bg-[#3563e9] active:scale-95 transition-all shadow-md'>
                 Rent Now
               </button>
             </CardFooter>
@@ -167,7 +167,7 @@ export default function Home() {
               <p>
                 $99.00/<span className='text-gray-500'>day</span>
               </p>
-              <button className='bg-[#3563e9] p-2 text-white rounded-md'>
+              <button className='bg-[#3563e9] p-2 text-white rounded-md hover:bg-[#54A6FF] active:bg-[#3563e9] active:scale-95 transition-all shadow-md'>
                 Rent Now
               </button>
             </CardFooter>
@@ -199,7 +199,7 @@ export default function Home() {
               <p>
                 $99.00/<span className='text-gray-500'>day</span>
               </p>
-              <button className='bg-[#3563e9] p-2 text-white rounded-md'>
+              <button className='bg-[#3563e9] p-2 text-white rounded-md hover:bg-[#54A6FF] active:bg-[#3563e9] active:scale-95 transition-all shadow-md'>
                 Rent Now
               </button>
             </CardFooter>
@@ -226,7 +226,7 @@ export default function Home() {
               <p>
                 $99.00/<span className='text-gray-500'>day</span>
               </p>
-              <button className='bg-[#3563e9] p-2 text-white rounded-md'>
+              <button className='bg-[#3563e9] p-2 text-white rounded-md hover:bg-[#54A6FF] active:bg-[#3563e9] active:scale-95 transition-all shadow-md'>
                 Rent Now
               </button>
             </CardFooter>
@@ -253,7 +253,7 @@ export default function Home() {
               <p>
                 $99.00/<span className='text-gray-500'>day</span>
               </p>
-              <button className='bg-[#3563e9] p-2 text-white rounded-md'>
+              <button className='bg-[#3563e9] p-2 text-white rounded-md hover:bg-[#54A6FF] active:bg-[#3563e9] active:scale-95 transition-all shadow-md'>
                 Rent Now
               </button>
             </CardFooter>
@@ -280,7 +280,7 @@ export default function Home() {
               <p>
                 $99.00/<span className='text-gray-500'>day</span>
               </p>
-              <button className='bg-[#3563e9] p-2 text-white rounded-md'>
+              <button className='bg-[#3563e9] p-2 text-white rounded-md hover:bg-[#54A6FF] active:bg-[#3563e9] active:scale-95 transition-all shadow-md'>
                 Rent Now
               </button>
             </CardFooter>
@@ -308,7 +308,7 @@ export default function Home() {
               <p>
                 $99.00/<span className='text-gray-500'>day</span>
               </p>
-              <button className='bg-[#3563e9] p-2 text-white rounded-md'>
+              <button className='bg-[#3563e9] p-2 text-white rounded-md hover:bg-[#54A6FF] active:bg-[#3563e9] active:scale-95 transition-all shadow-md'>
                 Rent Now
               </button>
             </CardFooter>
@@ -335,7 +335,7 @@ export default function Home() {
               <p>
                 $99.00/<span className='text-gray-500'>day</span>
               </p>
-              <button className='bg-[#3563e9] p-2 text-white rounded-md'>
+              <button className='bg-[#3563e9] p-2 text-white rounded-md hover:bg-[#54A6FF] active:bg-[#3563e9] active:scale-95 transition-all shadow-md'>
                 Rent Now
               </button>
             </CardFooter>
@@ -362,7 +362,7 @@ export default function Home() {
               <p>
                 $99.00/<span className='text-gray-500'>day</span>
               </p>
-              <button className='bg-[#3563e9] p-2 text-white rounded-md'>
+              <button className='bg-[#3563e9] p-2 text-white rounded-md hover:bg-[#54A6FF] active:bg-[#3563e9] active:scale-95 transition-all shadow-md'>
                 Rent Now
               </button>
             </CardFooter>
@@ -389,7 +389,7 @@ export default function Home() {
               <p>
                 $99.00/<span className='text-gray-500'>day</span>
               </p>
-              <button className='bg-[#3563e9] p-2 text-white rounded-md'>
+              <button className='bg-[#3563e9] p-2 text-white rounded-md hover:bg-[#54A6FF] active:bg-[#3563e9] active:scale-95 transition-all shadow-md'>
                 Rent Now
               </button>
             </CardFooter>
@@ -399,7 +399,7 @@ export default function Home() {
 
       <section className='button w-full text-center'>
         <Link href={"/categories"}>
-          <button className='bg-[#3563e9] px-4 py-2 text-white rounded-md mt-5'>
+          <button className='bg-[#3563e9] px-4 py-2 text-white rounded-md mt-5 hover:bg-[#54A6FF] active:bg-[#3563e9] active:scale-95 transition-all shadow-md'>
             Show More Cars
           </button>
         </Link>

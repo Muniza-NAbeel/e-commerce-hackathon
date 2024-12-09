@@ -60,6 +60,11 @@ export default {
         lg: '1440px', // Custom large width
         sm: '375px',  // Custom small width
       },
+      fontFamily: {
+        'geist-sans': ['Geist Sans', 'sans-serif'],
+        'geist-mono': ['Geist Mono', 'monospace'],
+        'plus-jakarta-sans': ['Plus Jakarta Sans', 'sans-serif'],
+      },
     },
   },
   plugins: [require("tailwindcss-animate")],
